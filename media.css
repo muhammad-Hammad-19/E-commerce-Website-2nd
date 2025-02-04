@@ -1,0 +1,522 @@
+@media (min-width:1450px) {
+    .navbar {
+        height: 150px;
+
+        ul {
+            font-size: 30px;
+            display: flex;
+            gap: 30px;
+        }
+
+        select {
+            font-size: 40px;
+        }
+
+        .logo img {
+            height: 40px;
+        }
+
+        .input {
+            height: 60px;
+            width: 600px;
+        }
+
+        .input input {
+            height: 60px;
+        }
+
+        .icon {
+            display: flex;
+            gap: 25px;
+        }
+
+        .icon img {
+            height: 50px;
+        }
+    }
+
+    .hero-section {
+        height: calc(150px - 100%);
+
+        .left p {
+            font-weight: 100;
+            font-size: 26px;
+            line-height: 40px;
+            width: 80%;
+        }
+
+        .left h1 {
+            font-size: 94px;
+            font-weight: bolder;
+        }
+
+        .right #f-m {
+            height: 600px;
+        }
+
+        .left button {
+            padding: 20px 45px;
+            border-radius: 30px;
+            width: 200px;
+            font-size: 20px;
+        }
+
+        .text h6 {
+            font-size: 60px;
+        }
+
+        .text span {
+            font-weight: 100;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        .right {
+            display: flex;
+            justify-content: center;
+        }
+
+        .style {
+            position: absolute;
+            top: 18%;
+            right: 15%;
+        }
+
+        #f-m {
+            height: 100%;
+            width: 60%;
+        }
+
+        #f-2 {
+            height: 150px;
+        }
+    }
+
+    .barnds {
+        display: flex;
+        height: 150px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .barnds img {
+        height: 70px;
+    }
+
+    .shop-section span {
+        font-size: 50px;
+    }
+
+    .shop-section h5 {
+        font-size: 50px;
+    }
+
+    .arrival-div h2 {
+        font-size: 70px;
+    }
+
+    .shop-section img {
+        height: 650px;
+    }
+
+    .shop-b button {
+        padding: 25px 45px;
+        font-size: 20px;
+    }
+
+    .main {
+        height: 150vh;
+    }
+
+    .main img {
+        height: 550px;
+    }
+
+    .main h2 {
+        font-size: 70px;
+    }
+
+    .arrow-s h2 {
+        font-size: 90px;
+    }
+
+    .arrow-s a {
+        font-size: 90px;
+    }
+
+    .arrow-s {
+        margin-top: 25px;
+        max-width: none;
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .card-s {
+        display: flex;
+        max-width: none;
+        margin-inline: auto;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .card-1 {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border-radius: 20px;
+        padding: 30px 30px;
+        width: 480px;
+        height: 300px;
+    }
+
+    .card-s span {
+        word-spacing: 6px;
+        width: 100%;
+        font-size: 26px;
+        font-weight: 100;
+    }
+
+    #name {
+        display: flex;
+        gap: 10px;
+    }
+
+    #name h6 {
+        font-size: 35px;
+    }
+
+    #img-s {
+        height: 40px;
+        width: 150px;
+    }
+
+}
+
+@media (max-width:1166px) {
+    .navbar {
+        ul {
+            font-size: 13px;
+            display: flex;
+        }
+
+        select {
+            font-size: 13px;
+        }
+
+        .logo img {
+            height: 20px;
+        }
+
+        .input {
+            width: 300px;
+        }
+
+        .icon img {
+            height: 20px;
+        }
+    }
+
+    .left p {
+        font-size: 10px;
+    }
+
+    .left h1 {
+        font-size: 45px;
+        font-weight: bolder;
+    }
+
+    .left button {
+        padding: 10px 25;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+
+    .text {
+        display: flex;
+        gap: 10px;
+    }
+
+    .text h6 {
+        font-size: 25px;
+    }
+
+    .text span {
+        font-weight: 100;
+        font-size: 10px;
+        text-transform: capitalize;
+    }
+
+    .right {
+        display: flex;
+        justify-content: end;
+    }
+
+    .right #f-m {
+        height: 480px;
+    }
+
+    .main {
+        height: 90vh;
+    }
+
+    .main img {
+        height: 200px;
+    }
+
+}
+
+@media (max-width:786px) {
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+
+        ul {
+            display: flex;
+            gap: 10px;
+            font-size: 10px;
+        }
+
+        select {
+            font-size: 15px;
+        }
+
+        .icon img {
+            height: 30px;
+        }
+    }
+
+    .input {
+        display: none;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+    }
+
+    #f-2 {
+        display: none;
+    }
+
+    .left p {
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 20px;
+        width: 80%;
+    }
+
+    .left h1 {
+        font-size: 54px;
+
+    }
+
+    .left button {
+        padding: 13px 35px;
+        border-radius: 20px;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .barnds img {
+        height: 20px;
+    }
+
+    .main img {
+        height: 150px;
+    }
+
+    .main h2 {
+        font-size: 30px;
+    }
+
+    .main {
+        height: 85vh;
+    }
+
+    .arrow-s h2 {
+        font-size: 25px;
+
+    }
+
+    .arrow>a {
+        font-size: 40px;
+    }
+
+    .card-s {
+        display: flex;
+        max-width: none;
+        margin-inline: auto;
+        flex-direction: column;
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .left-s h2 {
+        line-height: 23px;
+        font-size: 16px;
+    }
+
+    .input-s input {
+        height: 35px;
+        width: 220px;
+        border-radius: 20px;
+        padding: 0px 10px;
+    }
+
+    .logos-f>i {
+        font-size: 20px;
+    }
+
+    footer {
+        height: 300px;
+        width: 100%;
+        background-color: #f0eeed;
+        justify-content: space-between;
+        display: flex;
+        gap: 0px;
+    }
+
+    .shop-f span {
+        font-size: 8px;
+        width: 100px;
+    }
+
+    footer a {
+        font-size: 8px;
+    }
+
+    footer h2 {
+        font-weight: 900;
+        font-size: 16px;
+    }
+
+    footer h4 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:425px) {
+    .navbar {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        ul {
+            display: none;
+        }
+    }
+
+    .logo>i {
+        margin-right: 5px;
+        display: unset;
+        font-size: 30px;
+    }
+
+    .barnds img {
+        height: 12px;
+    }
+
+    .left p {
+        font-size: 10px;
+        line-height: 14px;
+        width: 80%;
+    }
+
+    .left h1 {
+        font-size: 40px;
+
+    }
+
+    .left button {
+        padding: 10px 20px;
+        border-radius: 20px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .left h6 {
+        font-size: 20px;
+    }
+
+    .left span {
+        font-size: 8px;
+    }
+
+    .right #f-m {
+        height: 300px;
+    }
+
+    .barnds {
+        height: 50px;
+    }
+
+    .arrival-div h2 {
+        font-size: 25px;
+    }
+
+    .main h2 {
+        font-size: 16px;
+    }
+
+    .main img {
+        height: 100px;
+    }
+
+    .main {
+        height: 70vh;
+    }
+
+    .arrow-s h2 {
+        font-size: 16px;
+    }
+
+    .arrow>a {
+        font-size: 20px;
+    }
+
+    .card-1 {
+        width: 300px;
+        height: 250px;
+    }
+
+    .input-s {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 20px;
+        display: flex;
+        height: 200px;
+    }
+
+    footer {
+        align-items: flex-start;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-f h3 {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}

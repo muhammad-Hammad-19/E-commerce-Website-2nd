@@ -1,0 +1,406 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo>i {
+    display: none;
+}
+
+.navbar {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input>i {
+    font-size: 20px;
+    width: 30px;
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.479);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input input {
+    border: none;
+    font-size: 15px;
+    height: 40px;
+    background-color: #f0f0f0;
+    margin-left: 10px;
+    width: 30px - 100%;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.479);
+}
+
+select {
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input {
+    background-color: #f0f0f0;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.icon img {
+    height: 25px;
+}
+
+.left p {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    width: 80%;
+}
+
+.left h1 {
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+.left button {
+    padding: 13px 35px;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
+
+.left button:hover {
+    background-color: black;
+    color: white;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    height: 100%;
+    flex-basis: 45%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding-top: 20px;
+    flex-basis: 45%;
+}
+
+.hero-section {
+    position: relative;
+    display: flex;
+    background-color: #f2f0f1;
+    justify-content: center;
+    overflow: hidden;
+    height: calc(100% - 90px);
+    position: relative;
+}
+
+.text {
+    display: flex;
+    margin-top: 35px;
+    gap: 60px;
+}
+
+.text h6 {
+    font-size: 40px;
+}
+
+.text span {
+    font-weight: 100;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.style {
+    position: absolute;
+    top: 18%;
+}
+
+.barnds {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.arrival-div {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+    gap: 10px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.shop-section span {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.shop-section h5 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.shop-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-b button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+}
+
+.shop-b button:hover {
+    background-color: black;
+    color: white;
+}
+
+.shop-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.main {
+    margin-top: 20px;
+    width: 80%;
+    height: 100vh;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #f0eeed;
+    margin-left: 10%;
+    position: relative;
+    cursor: pointer;
+}
+
+.shop-3 h2 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.img-3 {
+    margin-top: 20px;
+}
+
+.arrow-s {
+    margin-top: 25px;
+    max-width: 1180px;
+    display: flex;
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-s h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.arrow>a {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.card-s {
+    display: flex;
+    max-width: 1180px;
+    margin-inline: auto;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 20px;
+}
+
+.card-1 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 380px;
+    height: 200px;
+    background-color: #f0f0f0;
+    position: relative;
+    border: none;
+}
+
+.card-s span {
+    word-spacing: 3px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#name h6 {
+    font-size: 25px;
+}
+
+#img-s {
+    height: 20px;
+    width: 110px;
+}
+
+.left-s {
+    flex-basis: 35%;
+}
+
+.left-s h2 {
+    line-height: 40px;
+    font-size: 31px;
+    font-weight: bolder;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+.input-s {
+    margin-top: 20px;
+    padding: 25px 10px;
+    margin-inline: auto;
+    display: flex;
+    max-width: 1180px;
+    height: 130px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.right-s {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-basis: 30%;
+}
+
+.input-s input {
+    height: 45px;
+    width: 320px;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #f0eeed;
+    justify-content: space-around;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+footer a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logos-f>i {
+    font-size: 30px;
+}
+
+.shop-f span {
+    width: 200px;
+}
+
+footer h2 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.shop-f {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.a-f {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.last-f {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom: 10px;
+    background-color: #f0eeed;
+}
